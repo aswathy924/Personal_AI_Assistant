@@ -2,5 +2,5 @@ from rest_framework.response import Response
 from rest_framework.decorators import api_view
 
 @api_view(['GET'])
-def test_api(request):
-    return Response({"message": "Hello from Persoan AI Communication Assistant!"})
+def home_api(request):
+    return Response({"message": "Hello from Personal AI Communication Assistant!"})
