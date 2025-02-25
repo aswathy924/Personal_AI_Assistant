@@ -12,8 +12,7 @@ function App() {
 
   return (
     <div>
-      <h1>Personal AI Assistant</h1>
-      <p>Backend says: {message}</p>
+      <Home />
     </div>
   );
 }
